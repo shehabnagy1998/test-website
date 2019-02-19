@@ -1,0 +1,310 @@
+
+
+/* start upper bar */
+.upperBar {
+    padding: 7px;
+    background: #007bff;
+}
+
+.upperBar span {
+    color: white;
+    font-size: 13px;
+}
+
+.upperBar #quote {
+    font-size: 16px;
+    border: 1px solid #dc3545;
+    font-weight: bold;
+    text-transform: uppercase; 
+    padding: 3px 6px;
+}
+/* end upper bar */
+
+/* start navbar */
+.navbar-brand #brand1{
+    color: #dc3545;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar-brand #brand2{
+    color: #007bff;
+    font-size: 20px;
+}
+
+.navbar-toggler i {
+    color: #007bff;
+}
+
+.navbar-nav li {
+    font-size: 15px;
+}
+
+.navbar-nav .active {
+    font-weight: bold;
+    color: #dc3545;
+    font-size: 18px;
+}
+/* end navbar */
+
+/* start main carousel */
+.carousel .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .8;
+    z-index: 2;
+}
+.carousel-img {
+    width: 100%;
+    height: 450px;
+}
+.carousel-indicators li {
+    height: 25px;
+    margin-right: 5px;
+}
+.carousel-control {
+    z-index: 3;
+}
+.carousel-caption {
+    bottom: 160px;
+    font-size: 5vw;
+    line-height: 1.5;
+}
+.carousel-caption span {
+    background: #007bff;
+    padding: 2px 6px;
+}
+/* end main carousel */
+
+/* start little icons */
+.littleIcons {
+    padding: 100px 0px;
+}
+.littleIcons h3{
+    color: #007bff;
+}
+.littleIcons .odd {
+    color: #dc3545;
+}
+.littleIcons .info {
+    margin-bottom: 25px;
+}
+/* end little icons */
+
+/* start company overview  */
+.companyOverview {
+    padding: 100px 0px;
+    background-color: #f0f5f7;
+}
+.companyOverview h1 {
+    font-weight: bold;
+    color: #2c2c2c;
+    margin-bottom: 10px;
+}
+.companyOverview p {
+    color: #6A6767;
+    width: 70%;
+    margin: 0px auto;
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+.companyOverview span {
+    color: #979797;
+    letter-spacing: 9px;
+    margin-bottom: 15px;
+}
+.companyOverview a {
+    color: #FFF;
+    background: #dc3545;
+    padding: 15px 30px;
+    font-weight: bold;
+    font-size: 15px;
+}
+/* end company overview  */
+
+/* start featured work */
+.featuredWork {
+    padding: 100px 0px 0px;
+}
+.featuredWork h1 {
+    font-weight: bold;
+    color: #2c2c2c;
+    margin-bottom: 10px;
+}
+.featuredWork p {
+    color: #6A6767;
+    width: 70%;
+    margin: 0px auto;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+.featuredWork a {
+    padding: 5px 15px !important;
+    transition: all .5s;
+}
+.featuredWork .nav-item .active {
+    background: #dc3545;
+}
+/* end featured work */
+
+/* start latest posts */
+.latestPosts {
+    padding: 100px 0px;
+}
+.latestPosts h1 {
+    font-weight: bold;
+    color: #2c2c2c;
+    margin-bottom: 10px;
+}
+.latestPosts p {
+    color: #6A6767;
+    width: 70%;
+    margin: 0px auto;
+    line-height: 1.7;
+    margin-bottom: 50px;
+}
+.latestPosts .card-title {
+    color: #007bff;
+}
+.latestPosts .card-subtitle {
+    font-size: 14px;
+}
+.latestPosts .card-text {
+    font-size: 17px;
+    width: 100%;
+    color: #2D2C2D;
+}
+.latestPosts .card-link {
+    font-weight: bold;
+}
+.latestPosts .card-link::after {
+    font-family: "font awesome 5 free";
+    content: "\f101";
+    color: #dc3545;
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+}
+/* end latest posts */
+
+/* start pricing table */
+.pricingTable {
+    padding: 100px 0px;
+    background-color: #f0f5f7;
+}
+.pricingTable h1 {
+    font-weight: bold;
+    color: #2c2c2c;
+    margin-bottom: 10px;
+}
+.pricingTable p {
+    color: #6A6767;
+    width: 70%;
+    margin: 0px auto;
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+.pricingTable .card-title {
+    color: #DC3545;
+    font-weight: bold;
+}
+.pricingTable .card-text {
+    font-size: 30px;
+    color: #DC3545;
+    background: #f0f5f7;
+    width: 100%;
+}
+.pricingTable .card-text span {
+    font-size: 17px;
+    }
+.pricingTable .mainCard .card-text {
+    color: #FFF;
+    background: #007BFF;
+}
+/* end pricing table */
+
+/* start choose us */
+.chooseUs {
+    background: #0e5097;
+}
+.chooseUs .img-fluid {
+   width: 100%; 
+   height: 100%; 
+}
+.chooseUs h1 {
+    color: #FFF;
+}
+.chooseUs p {
+    color: #D9D9D9;
+}
+/* end choose us */
+
+/* start opinions */
+.opinions {
+    padding: 100px 0px;
+}
+/* end opinions */
+
+/* start contact us */
+.contactUs {
+    background: #007BFF;
+}
+.contactUs p,
+.contactUs a {
+    font-size: 3vw;
+}
+/* end contact us */
+
+/* start road map */
+.roadMap {
+    padding: 100px 0px;
+}
+.roadMap h1 span:first-child {
+    color: #dc3545;
+    font-size: 50px;
+    font-weight: bold; 
+}
+.roadMap h1 span:last-child {
+    color: #007bff;
+    font-size: 30px; 
+}
+.roadMap a {
+    font-weight: bold;
+}
+.roadMap a:hover {
+text-decoration: none;
+}
+.roadMap .main a::after {
+    font-family: "font awesome 5 free";
+    content: "\f101";
+    color: #dc3545;
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+}
+.roadMap .links h1 {
+    color: #DC3545;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+.roadMap .links li::before {
+    font-family: "font awesome 5 free";
+    font-weight: bold;
+    content: "\f054";
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+    color: #007bff;
+}
+.address h1 {
+    color: #DC3545;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+/* end road map */
